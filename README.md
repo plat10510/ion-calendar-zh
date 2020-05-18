@@ -26,7 +26,7 @@ npm i jquery
 Within your **app.module.ts** file, make sure to add the import.
 
 ```javascript
-import { CalendarModule } from 'ionic3-calendar-en';
+import { CalendarModule } from 'ion-calendar-zh';
 @NgModule({
   ...
 imports: [
