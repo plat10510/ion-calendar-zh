@@ -1,8 +1,9 @@
-# Ionic Calendar (English and Spanish)
+# Ionic Calendar (粗仿钉钉)
 
-![image](https://raw.githubusercontent.com/gbrits/ionic-calendar/master/calendar.png?raw=true)
+![image](https://luoyuanli.com/wp-content/uploads/2020/05/image-1589769483386.png)
 
-A straight forward calendar module that has the optional capability to expand to *clickable days* and trackable *events*, with unobtrusive boiler-plating.
+
+直接拿别人写的来改的日历组件，把英文都换成中文了。
 
 ## Ionic Support
 
@@ -13,7 +14,13 @@ This module was tested to Ionic v3.19.0.
 Go ahead and install via NPM
 
 ```
-npm install ionic3-calendar-en --save
+npm install ion-calendar-zh --save
+npm i jquery
+```
+
+想要左滑右滑效果的话自己添加animate.css到index.html，如：
+```
+<link href="assets/css/animate.css" rel="stylesheet">
 ```
 
 Within your **app.module.ts** file, make sure to add the import.
@@ -39,9 +46,6 @@ Basic usage is as follows:
 
 <ion-calendar #calendar></ion-calendar>
 
-<ion-calendar #calendar lang="es"></ion-calendar> // Spanish support
-
-<ion-calendar #calendar lang="en"></ion-calendar> // Or you can explicitly indicate English
 
 ```
 
@@ -86,20 +90,15 @@ The consequent invocation of these events would be done like so:
 
 ### Changelog
 
-> 20th June 2018
->> Language prop added, Spanish supported.
-
-> 8th December 2017
->> Added Events capability
-
-> 5th December 2017
->> Added English comments to code
->> Added English month names instead of numerals on FE
->> Minor colour adjustments for legibility
+> 2020-05-18
+>> 汉化
+>> 更换样式
+>> 增加左滑右滑切换
 
 ## Authors
 
 * **Laker Liu** - *Initial work* - [Ionic3-Calendar](https://github.com/laker007/ionic3-calendar)
+* [ionic3-calendar-en](https://github.com/gbrits/ionic-calendar)
 
 **It's not what you start in life, it's what you finish.**
 
