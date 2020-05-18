@@ -1,0 +1,23 @@
+{
+  "name": "ion-calendar-zh",
+  "version": "1.0.1",
+  "description": "根据ion-calendar-en并模仿钉钉改写的日历组件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plat10510/ion-calendar-zh.git"
+  },
+  "keywords": [
+    "ionic",
+    "calendar"
+  ],
+  "author": "alamofire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plat10510/ion-calendar-zh/issues"
+  },
+  "homepage": "https://github.com/plat10510/ion-calendar-zh#readme"
+}
