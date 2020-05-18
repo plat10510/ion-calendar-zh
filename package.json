@@ -1,6 +1,6 @@
 {
   "name": "ion-calendar-zh",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "根据ion-calendar-en并模仿钉钉改写的日历组件",
   "main": "index.js",
   "scripts": {
