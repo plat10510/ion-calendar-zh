@@ -1,6 +1,6 @@
 # Ionic Calendar (粗仿钉钉)
 
-![image](https://github.com/plat10510/ion-calendar-zh/blob/master/calendar.png)
+![image](https://luoyuanli.com/content/uploads/2020/05/image-1589769483386.png)
 
 
 直接拿别人写的来改的日历组件，把英文都换成中文了。
